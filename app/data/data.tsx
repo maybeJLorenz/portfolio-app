@@ -33,10 +33,10 @@ export const contactMeText = {
 
 export const projects = [
 	{
-		title: "Personal Finance Tracker",
+		title: "Custom Network Topology",
 		body1:
-			"A web application that allows users to track their income and expenses, categorize transactions, and view reports and charts to gain insights into their spending habits.",
-		body2: "Technologies used: HTML, CSS, JavaScript, and Flask.",
+			"A socket programming application that mimics a university network. Packets can be routed based on LAN, IP address, and protocol type.",
+		body2: "Technologies used: Linux, Python, Git.",
 		image: "luke-chesser-JKUTrJ4vK00-unsplash.jpg",
 		links: [
 			{
