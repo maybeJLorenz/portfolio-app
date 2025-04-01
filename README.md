@@ -1,7 +1,7 @@
 # Portfolio
 Hey yall, I'm Jasmine, a 3rd year student @ UCSC studying Information Tehcnology! This is my first individual web project, so I'm going for an "About Me" type of format. Stay tuned ^_^
 
-I used this [reference](https://www.youtube.com/watch?v=RJ8qfharNOE) from YouTube
+I used this [reference]([https://www.youtube.com/watch?v=RJ8qfharNOE](https://www.youtube.com/watch?v=RJ8qfharNOE)) from YouTube
 
 # Next.js + Tailwind CSS Example
 
