@@ -1,6 +1,8 @@
 # Portfolio
 Hey yall, I'm Jasmine, a 3rd year student @ UCSC studying Information Tehcnology! This is my first individual web project, so I'm going for an "About Me" type of format. Stay tuned ^_^
 
+I used this [reference](https://www.youtube.com/watch?v=RJ8qfharNOE) from YouTube
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
