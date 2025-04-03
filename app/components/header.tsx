@@ -1,12 +1,25 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-export const Header = () => {
+export const Header = ({data}) => {
     return (
         <header>
             <div> 
-                <nav>3 links</nav>
-                <h1 className=''> Name of the person </h1>
+                <nav>
+                    {data.map(page) => {
+                        <Link 
+                            aria-label={page.label}
+                            key={page.id} 
+                            href={page.link}
+                            className=''
+                        >
+                            {" "}
+                            {page.label}{" "}
+                        </Link>
+                    })}
+                </nav>
+                <h1 className=''> {data.name} </h1>
             </div>
             <Image 
                 priority 
