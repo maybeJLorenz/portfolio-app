@@ -1,5 +1,5 @@
 # Portfolio
-Hey yall, I'm Jasmine, a 3rd year student @ UCSC studying Information Tehcnology! This is my first individual web project, so I'm going for an "About Me" type of format. Stay tuned ^_^
+Hey yall, this is a project I'm currently working on! This is my first "real" web project, so I'm going for an "About Me" type of format. Stay tuned ^_^
 
 I used this [reference](https://www.youtube.com/watch?v=RJ8qfharNOE) from YouTube
 
