@@ -1,7 +1,7 @@
 import "./global.css";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
-import { aboutMeData, pages } from "./data/data";
+import { aboutMeData, contactMeLinks, pages } from "./data/data";
 export default function RootLayout({
   children,
 }: {
@@ -13,7 +13,7 @@ export default function RootLayout({
       <body>
         <Header name={aboutMeData.name} pages={pages} />
         {children}
-        <Footer />
+        <Footer contactMeLinks={contactMeLinks} />
       </body>
     </html>
   );
