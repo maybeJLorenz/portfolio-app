@@ -514,14 +514,23 @@ video {
     h1 {
   font-size: 1.953rem;
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
+}
+.bottom-0 {
+  bottom: 0px;
 }
 .z-10 {
   z-index: 10;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+.mt-12 {
+  margin-top: 3rem;
 }
 .flex {
   display: flex;
@@ -544,14 +553,27 @@ video {
 .flex-col {
   flex-direction: column;
 }
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
 .justify-around {
   justify-content: space-around;
+}
+.gap-1 {
+  gap: 0.25rem;
 }
 .gap-6 {
   gap: 1.5rem;
 }
 .self-end {
   align-self: flex-end;
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 .bg-header {
   background-image: linear-gradient(98.85deg, #557AFF 7.8%, rgba(239, 252, 255, 0) 139.35%);;
@@ -572,6 +594,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .text-right {
   text-align: right;
 }
@@ -587,6 +613,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.shadow-footer {
+  --tw-shadow: 0px -7px 41px 3px rgba(175, 175, 175, 0.25);
+  --tw-shadow-colored: 0px -7px 41px 3px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:bg-blue-light:hover {
