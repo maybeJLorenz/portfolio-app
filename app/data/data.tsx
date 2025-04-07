@@ -21,7 +21,7 @@ export const aboutMeData = {
 	title: "Hi! I'm Jasmine Lorenz",
 	body: "I'm a current 3rd year @ UCSC studying Information Technology. I've created a foundation of computer science and programming over the years, with a basic understanding of economics.",
 	highlightedBody:
-		"As a current university student, I'm always looking for ways to enhance my skillset apart from what we learn in academia. I like to endulge in unfamiliar topics to eventually get comfortable with new tools I learn.",
+		"As a current university student, I'm always looking for ways to enhance my skillset apart from what we learn in academia. I like to endulge in unfamiliar topics to eventually get comfortable with new tools and concepts I learn.",
 	body2:
 		"When I'm not coding, I enjoy spending time watching sports, especially the Warriors, Barcalona, and the 49ers. I'm always excited to join watch parties for soccer events like the Euros, Champions League, and the World Cup of course.",
 };

@@ -19,5 +19,13 @@
 }
 
 .icons_contactme {
-    @apply text-2xl sm:text-3xl text-black m-2;
+    @apply text-2xl sm:text-3xl text-blue m-2;
+}
+
+.profileImage{
+    @apply rounded-full;
+    width: auto;
+    height: auto;
+    object-fit: 100%;
+    object-position: 50% 4%;
 }
