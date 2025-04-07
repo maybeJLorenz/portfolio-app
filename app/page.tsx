@@ -18,7 +18,7 @@ const AboutMePage = () => {
 					/>
 				</div>
 				<div className='sm:ml-20 sm:mt-0  sm:w-2/3 w-full mt-6 ml-0 p-10'>
-					<h2 className=''> {aboutMeData.title}</h2>
+					<h2 className='font-display'> {aboutMeData.title}</h2>
 					<p className='text-base'> {aboutMeData.body}</p>
 				</div>
 			</section>

@@ -13,17 +13,17 @@ type HeaderProps = {
 
 export const Header = ({ name, pages}: HeaderProps) => {
     return (
-        <header className='flex flex-col reletive bg-linear-557AFF w-full h-48'>
-            <div className='flex flex-col justify-around h-full px-6 bg-header z-10'> 
-                <nav className='text-right flex flex-row gap-6 self-end'>
+        <header className='flex flex-col relative bg-linear-557AFF w-full h-48'>
+            <div className='flex flex-col justify-around h-full sm:px-6 px:1 bg-header z-10'> 
+                <nav className='text-right flex flex-row sm:gap-6 self-end gap-1'>
                     {pages.map((page) => {
                         return(
                             <Link 
                                 aria-label={page.label}
                                 key={page.id} 
                                 href={page.link}
-                                className='px-6 py-2 min-w-100 bg-white hover:bg-blue hover:text-black
-                                font-display uppercase tracking-wide transition-colors duration-300 rounded'
+                                className='px-6 py-2 min-w-100 hover:bg-blue hover:text-black font-oswald uppercase tracking-wide sm:bg-none
+								bg-white duration-300 rounded'
 
                             >
                                 {page.label}
@@ -31,7 +31,7 @@ export const Header = ({ name, pages}: HeaderProps) => {
                         );
                     })}
                 </nav>
-                <h1 className='text-white uppercase'> {name} </h1>
+                <h1 className='text-white font-display uppercase'> {name} </h1>
             </div>
             <Image 
                 priority 
