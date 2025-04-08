@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 @layer base {
     h1, 
@@ -20,7 +19,7 @@
 }
 
 .icons_contactme {
-    @apply text-2xl sm:text-3xl text-blue m-2;
+    @apply text-2xl sm:text-3xl text-black m-2;
 }
 
 .profileImage{

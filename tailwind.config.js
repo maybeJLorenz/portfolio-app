@@ -6,19 +6,21 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		colors: {
-			black: "#191A19",
-			blue: "#557AFF",
-			"blue-light": "#EFF3FF",
-			grey: "#D9D9D9",
-			"grey-light": "#fafafa",
-			green: "#68F590",
-			white: "#fff",
-		},
-		fontFamily: {
-			sans: ["Georgia", "sans-serif"],
-			serif: ["Merriweather", "serif"],
-			display: ["Oswald"],
+		extend: {
+			colors: {
+				black: "#191A19",
+				blue: "#557AFF",
+				"blue-light": "#EFF3FF",
+				grey: "#D9D9D9",
+				"grey-light": "#fafafa",
+				green: "#68F590",
+				white: "#fff",
+			},
+			fontFamily: {
+				sans: ["Georgia", "sans-serif"],
+				serif: ["Merriweather", "serif"],
+				display: ["Oswald"],
+			},
 		},
 		fontSize: {
 			sm: "0.8rem",

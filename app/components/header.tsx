@@ -22,7 +22,7 @@ export const Header = ({ name, pages}: HeaderProps) => {
                                 aria-label={page.label}
                                 key={page.id} 
                                 href={page.link}
-                                className='px-6 py-2 min-w-100 hover:bg-blue hover:text-black font-oswald uppercase tracking-wide sm:bg-none
+                                className='px-6 py-2 min-w-100 hover:bg-slate-300 hover:text-black font-oswald uppercase tracking-wide sm:bg-none
 								bg-white duration-300 rounded'
 
                             >
@@ -31,7 +31,14 @@ export const Header = ({ name, pages}: HeaderProps) => {
                         );
                     })}
                 </nav>
-                <h1 className='text-white font-display uppercase'> {name} </h1>
+                <h1 className="group relative text-white font-oswald uppercase">
+                    <span className="transition duration-300 group-hover:opacity-0 block">{name}</span>
+                    <span className="absolute inset-0 flex items-center justify-center text-green-400 opacity-0 group-hover:opacity-100 transition duration-300">
+                        jasmine.lorenz334@gmail.com
+                    </span>
+                </h1>
+
+
             </div>
             <Image 
                 priority 
